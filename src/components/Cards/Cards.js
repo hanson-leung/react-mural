@@ -8,7 +8,6 @@ import ScanCard from "./Scan/ScanCard";
 const Cards = () => {
   return (
     <section id="cards">
-      <AboutCard />
       <ScanCard />
       <ExploreCard />
     </section>
