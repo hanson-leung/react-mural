@@ -16,11 +16,11 @@ const PersonInfo = (props) => {
       parsedScan = parsedScan.includes(' ') ? parsedScan.replace(/\s/g, '-') : parsedScan;
   
       const text = parsedScan;
-      scanToPerson(text);
+      nameToPerson(text);
     }
   })
 
-  const scanToPerson = (text) => {
+  const nameToPerson = (text) => {
     for (let i = 0; i < People.length; i++) {
       let nameToMatch = People[i].name.replace(/\s/g, '-').toLowerCase();
       if (text == nameToMatch) {

@@ -60,7 +60,7 @@ const Scanner = () => {
 
     <Modal isOpen={modalIsOpen} id="scan-modal">
         <button onClick={setModalIsOpenToFalse}>x</button>
-        <PersonInfo scan={scanData} modalIsOpen={modalIsOpen}/>
+        <PersonInfo scan={scanData} modalIsOpen={modalIsOpen} />
     </Modal>
 
       

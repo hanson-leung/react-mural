@@ -30,7 +30,7 @@ const cohortEightProfiles = [
     funnyPhoto: "",
     bio: "My name is Heath (like the bar). I am a freshman studying Arts, Technology, and the Business of Innovation at USC. Every day, I gain knowledge and experience both in the classroom and in organizations (@gosparksc & @usclavalab) to propel my career forward. My specialties are in industrial, UI, and graphic design. If you don’t find me designing the next, I am usually recreating scenes from the Fast and Furious series (@heath.cars) or tending the net for the men’s ice hockey team.",
   },
-  ,{
+  {
     name: "Samson Taxon",
     headshot: "",
     funnyPhoto: "",
