@@ -62,7 +62,7 @@ const cohortEightProfiles = [
   },
   {
     name: "Hanson Leung",
-    bio: "Hi! I'm Hanson Leung! In my free time, I can usually be found screen printing t-shirts, learning to ollie, or fiddling with CSS grid. See my projects on hansonleung.co and say hello at h@hansonl.com."
+    bio: "Hi! I'm Hanson Leung and I am from the always sunny suburbs of Philadelphia, PA. In my free time, I can usually be found screen printing t-shirts, learning to ollie, or fiddling with CSS grid."
   },
   {
     name: "Austin Li",
@@ -176,7 +176,7 @@ const cohortEightProfiles = [
     name: "Natalie So",
     headshot: "",
     funnyPhoto: "",
-    bio: "Nat is Vivian's Dommy Mommy. That says enought.",
+    bio: "Hey, thanks for stopping by! I’m Natalie So, but my friends like to call me Nat, and I’m from Hong Kong. Ever since I was a kid, I’ve been trying to communicate and share my stories through whatever medium possible. Regardless it was through painting, singing, dancing or a speech, connecting with people was—and still is—what energizes me. Despite trying various mediums, I found filmmaking and design to be the two that really enthralled me. I’m a massive film nerd so if you ever want to talk filmmaking or have any film recommendations, feel free to hit me up! But if I’m not watching new films or tinkering with my designs, you can catch me playing frisbee or listening to music! Fun fact: I’m certified in scuba diving 🤿",
   }
 ];
 
