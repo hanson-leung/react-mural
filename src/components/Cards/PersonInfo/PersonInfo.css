@@ -1,0 +1,26 @@
+.card-person-container {
+    max-width: 95%;
+}
+
+#background-img {
+    position: absolute;
+    width: 100%;
+
+}
+
+#card-img {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    width: 120px;
+}
+
+.card-name {
+    position: absolute;
+    top: 30%;
+}
+
+.card-bio {
+    position: absolute;
+    top: 40%;
+}

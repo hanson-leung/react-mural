@@ -25,7 +25,7 @@ const PersonCard = (props) => {
     person ? 
       <div>
         <Modal isOpen={modalIsOpen} isScan={false} id="scan-modal">
-          <button onClick={setModalIsOpenToFalse}>x</button>
+          <button className="back-button" onClick={setModalIsOpenToFalse}>&#8592;</button>
           <PersonInfo scan={person.name} modalIsOpen={modalIsOpen}/>
         </Modal>
     

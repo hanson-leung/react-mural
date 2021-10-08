@@ -61,6 +61,10 @@ const cohortEightProfiles = [
     bio: "Hi, I'm Faith! I'm from the suburbs of Chicago, home of Portillo's and Culver's (the best food).  I've always loved sharing the stories of others whether it be through design, podcasts, or writing, and I'm excited to continue doing so at the Academy. In my free time, you can always find me sipping on an iced coffee or Red Bull, listening to a RadioLab podcast, and playing Animal Crossing (check out my island :)). One of my dreams is to work on a Radiolab-style podcast, so I'm always interested and looking out for wacky stories!",
   },
   {
+    name: "Hanson Leung",
+    bio: "Hi! I'm Hanson Leung! In my free time, I can usually be found screen printing t-shirts, learning to ollie, or fiddling with CSS grid. See my projects on hansonleung.co and say hello at h@hansonl.com."
+  },
+  {
     name: "Austin Li",
     headshot: "",
     funnyPhoto: "",

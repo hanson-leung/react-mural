@@ -2,6 +2,10 @@ import React, { useState, useEffect } from "react";
 
 import People from '../../assets/people';
 
+import IYH from '../../assets/iyh.jpg'
+
+import './PersonInfo.css';
+
 const PersonInfo = (props) => {
 
   const [user, setUser] = useState(null);
@@ -23,7 +27,7 @@ const PersonInfo = (props) => {
   const nameToPerson = (text) => {
     for (let i = 0; i < People.length; i++) {
       let nameToMatch = People[i].name.replace(/\s/g, '-').toLowerCase();
-      if (text == nameToMatch) {
+      if (text === nameToMatch) {
         setUser(People[i]);
       }
     }
@@ -40,14 +44,14 @@ const PersonInfo = (props) => {
 
 
   return (
-    <div>
+    <div className="card-person-container">
 
       {
         user ?
           <>
-            <img src={process.env.PUBLIC_URL + '/headshots/' + imgPath + '.jpg'} className="headshot" />
-            <h1>{user.name}</h1>
-            <p>{user.bio}</p>
+            <img id="card-img" src={process.env.PUBLIC_URL + '/headshots/' + imgPath + '.jpg'} className="headshot" />
+            <h1 className="card-name">{user.name}</h1>
+            <p className="card-bio">{user.bio}</p>
           </>
         :
           ''
