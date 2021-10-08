@@ -30,6 +30,12 @@ const cohortEightProfiles = [
     funnyPhoto: "",
     bio: "My name is Heath (like the bar). I am a freshman studying Arts, Technology, and the Business of Innovation at USC. Every day, I gain knowledge and experience both in the classroom and in organizations (@gosparksc & @usclavalab) to propel my career forward. My specialties are in industrial, UI, and graphic design. If you don’t find me designing the next, I am usually recreating scenes from the Fast and Furious series (@heath.cars) or tending the net for the men’s ice hockey team.",
   },
+  ,{
+    name: "Samson Taxon",
+    headshot: "",
+    funnyPhoto: "",
+    bio: "My passion is the intersection of elegance and utility. This leads me to treat every space I enter as a creative opportunity. I seek out challenges and thrive in creative and competitive environments. I am a maker, designer, innovator, and entrepreneur with an appetite for cracking the complicated. From ideation through concept development and execution, I am constantly working to advance and market creative solutions to complex problems. I am a product designer who believes there is room for improvement everywhere, so my mind is constantly gaming innovation for real world impact.",
+  },
   {
     name: "Alexis Kim",
     headshot: "",
