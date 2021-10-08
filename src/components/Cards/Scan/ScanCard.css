@@ -1,0 +1,12 @@
+.card.clicked .dropdown {
+    max-height: 100%;
+}
+
+#scanner {
+    display: grid;
+    justify-self: center;
+}
+
+#scan-modal {
+    opacity: 1;
+}

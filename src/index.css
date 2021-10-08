@@ -1,0 +1,66 @@
+:root {
+  --transparent: #fff0;
+  --yellow: #ffc000;
+  --hover-grey: #999999;
+
+  /* light mode styles */
+  --black: #1d1d1b;
+  --white: #fff;
+  --lightgrey: #fafafa;
+
+  /* dark mode styles */
+  --darkmode-darkgrey: #101010;
+  --darkmode-lightgrey: #191818;
+
+  /* fonts */
+  --font: "Helvetica Neue";
+  --bold: 800;
+  --medium: 500;
+  --regular: 400;
+
+  /* animations */
+  --short: 0.4s;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "FoundersGrotesk-Web";
+  src: url("https://www.bu.edu/cdn/fonts/client-fonts/Founders-Grotesk/founders-grotesk-web-medium.eot");
+  src: url("https://www.bu.edu/cdn/fonts/client-fonts/Founders-Grotesk/founders-grotesk-web-medium.eot?")
+      format("embedded-opentype"),
+    url("https://www.bu.edu/cdn/fonts/client-fonts/Founders-Grotesk/founders-grotesk-web-medium.woff2")
+      format("woff2"),
+    url("https://www.bu.edu/cdn/fonts/client-fonts/Founders-Grotesk/founders-grotesk-web-medium.woff")
+      format("woff");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "FoundersGrotesk-Web";
+  src: url("https://www.bu.edu/cdn/fonts/client-fonts/Founders-Grotesk/founders-grotesk-web-regular.eot");
+  src: url("https://www.bu.edu/cdn/fonts/client-fonts/Founders-Grotesk/founders-grotesk-web-regular.eot?")
+      format("embedded-opentype"),
+    url("https://www.bu.edu/cdn/fonts/client-fonts/Founders-Grotesk/founders-grotesk-web-regular.woff2")
+      format("woff2"),
+    url("https://www.bu.edu/cdn/fonts/client-fonts/Founders-Grotesk/founders-grotesk-web-regular.woff")
+      format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+
+body {
+  background-color: var(--white);
+  min-height: 100vh;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  padding: 0;
+  color: var(--black);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
