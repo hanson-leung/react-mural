@@ -21,7 +21,7 @@ const PersonCard = (props) => {
   const imagePath = person.name.toLowerCase().substring(0, lastIndex);
 
   return person ? (
-    <div>
+    <div className="personSection">
       <Modal isOpen={modalIsOpen} isScan={false} id="scan-modal">
         <button
           className="back-button"

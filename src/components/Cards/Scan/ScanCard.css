@@ -5,6 +5,8 @@
 #scanner {
   display: grid;
   justify-self: center;
+  border-radius: 1rem;
+  overflow: hidden;
 }
 
 #scan-modal {
@@ -12,4 +14,24 @@
   padding: 0 !important;
   border: 3px solid var(--black) !important;
   border-radius: 1rem !important;
+}
+
+.cohort {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+.personSection:nth-of-type(3n) {
+  grid-column: span 2;
+}
+
+.profiles-layout {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr;
+}
+
+.personSection {
+  justify-self: center;
 }

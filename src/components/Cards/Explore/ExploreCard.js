@@ -24,15 +24,17 @@ const ExploreCard = () => {
           <div className="dropdown-arrow"></div>
         </div>
         <div className="dropdown">
-          {People
-            ? People.map((person, index) => {
-                return (
-                  <>
-                    <PersonCard data={person} key={index} />
-                  </>
-                );
-              })
-            : ""}
+          <div className="cohort">
+            {People
+              ? People.map((person, index) => {
+                  return (
+                    <>
+                      <PersonCard data={person} key={index} />
+                    </>
+                  );
+                })
+              : ""}
+          </div>
         </div>
       </div>
     </div>
