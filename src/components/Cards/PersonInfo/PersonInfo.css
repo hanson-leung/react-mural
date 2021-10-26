@@ -1,26 +1,22 @@
 .card-person-container {
-    max-width: 95%;
 }
 
 #background-img {
-    position: absolute;
-    width: 100%;
-
+  position: absolute;
+  width: 100%;
 }
 
 #card-img {
-    position: absolute;
-    top: 15%;
-    left: 5%;
-    width: 120px;
+  width: 100%;
+  border-radius: 0;
+  border: none;
 }
 
 .card-name {
-    position: absolute;
-    top: 30%;
+  padding: 1.5rem;
 }
 
 .card-bio {
-    position: absolute;
-    top: 40%;
+  padding: 1.5rem;
+  padding-top: 0;
 }

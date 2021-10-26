@@ -14,7 +14,7 @@ a:visited {
   width: 50%;
   height: 30px;
   text-align: center;
-  background-color: #FEBF00;
+  background-color: #febf00;
 }
 
 a.link {
@@ -212,7 +212,7 @@ header {
 }
 
 .card-icon {
-  width: 100%;
+  width: 80%;
   display: flex;
   margin: 0 auto;
   padding: 0.5rem 0 1rem 0;
@@ -242,9 +242,30 @@ header {
 }
 
 .back-button {
+  position: fixed;
+  height: 24px;
+  width: 24px;
+  margin: 1rem;
+  background-color: #fff;
+  border-color: #fff0 !important;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.back-button::after,
+.back-button::before {
+  content: "";
+  display: block;
   position: absolute;
-  height: 40px;
-  width: 40px;
-  background-color: #FEBF00;
-  border-radius: 100%;
+  height: 12px;
+  width: 2px;
+  background-color: var(--black);
+  border-radius: 2px;
+  transform: rotate(45deg);
+}
+
+.back-button::after {
+  transform: rotate(-45deg);
 }
