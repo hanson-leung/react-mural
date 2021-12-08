@@ -96,6 +96,15 @@ body {
   width: 100%;
 }
 
+@media screen and (min-width: 460px) {
+  .container {
+    width: 400px;
+    margin: 4rem auto;
+    box-shadow: 0px 16px 50px rgba(0, 0, 0, 0.15);
+    border-radius: 1rem;
+  }
+}
+
 .centered {
   text-align: center;
 }
