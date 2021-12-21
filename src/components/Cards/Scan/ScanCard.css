@@ -16,6 +16,13 @@
   border-radius: 1rem !important;
 }
 
+@media screen and (min-width: 460px) {
+  #scan-modal {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
+
 .cohort {
   display: grid;
   grid-template-columns: 1fr 1fr;
